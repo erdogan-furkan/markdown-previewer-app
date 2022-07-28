@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  color: #646464;
+}
+
+.shadow-dark {
+  box-shadow: 10px 10px #646464;
+  transition: 0.2s;
+}
+
+.shadow-dark:hover {
+  box-shadow: 7px 7px #646464;
+}
+
+#converted > * {
+  font-size: revert;
+  font-weight: revert;
+  margin: revert;
+  padding: revert;
+  list-style: revert;
+  display: revert;
+  vertical-align: revert;
+  border-width: revert;
+  border-style: revert;
+  border-color: revert;
+  outline: revert;
+}
